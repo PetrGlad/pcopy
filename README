@@ -1,0 +1,3 @@
+This program copies media files from digital camera's memory card to specified folder.
+Source directory is scanned recursively. 
+Photos are copied to sub-folders YEAR_MONTH_DATE depending on source file's modification date.

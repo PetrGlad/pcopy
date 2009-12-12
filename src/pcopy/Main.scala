@@ -80,12 +80,11 @@ object Main {
 				case e : IOException => { destFile.delete(); throw e; }				
 			} 		
 		} finally {
-			if (source != null) {
+			if (source != null)
 				source.close();
-			}
-			if (destination != null) {
+
+			if (destination != null)
 				destination.close();
-			}
 		}
 	}
   	
