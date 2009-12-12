@@ -1,3 +1,6 @@
 This program copies media files from digital camera's memory card to specified folder.
 Source directory is scanned recursively. 
 Photos are copied to sub-folders YEAR_MONTH_DATE depending on source file's modification date.
+To run it you need scala-library.jar
+
+Usage java -cp scala-library.jar:. pcopy.Main source-directory target-directory
